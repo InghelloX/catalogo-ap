@@ -7,7 +7,7 @@ define('ROOT_PATH', __DIR__);
 define('APP_PATH', __DIR__ . '/app');
 
 require_once APP_PATH . '/core/App.php';
-App::iniciar()
+App::iniciar();
 
 $router = new Router();
 $router
