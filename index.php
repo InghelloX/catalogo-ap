@@ -1,7 +1,7 @@
 <?php
 /**
- * Front Controller: único punto de entrada de la aplicación.
- * Todas las peticiones pasan por aquí: index.php?r=<ruta>
+ Front Controller: único punto de entrada de la aplicación.
+ Todas las peticiones pasan por aquí: index.php?r=<ruta>
  */
 define('ROOT_PATH', __DIR__);
 define('APP_PATH', __DIR__ . '/app');
