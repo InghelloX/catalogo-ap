@@ -1,4 +1,6 @@
 <?php
+
+esto es un error de sintaxis intencional
 /**
  * Página de bienvenida.
  */
