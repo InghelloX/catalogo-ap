@@ -5,7 +5,7 @@ on:
   push:
     branches: [ "main", "master" , "mano" ]
   pull_request:
-    branches: [ "main", "master" , "mano"]
+    branches: [ "main", "master" , "mano"]yamal
 
 jobs:
   build:
