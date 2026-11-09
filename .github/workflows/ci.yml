@@ -5,7 +5,8 @@ on:
   push:
     branches: [ "main", "master" , "mano" , "ghellox" , "oe"]
   pull_request:
-    branches: [ "main", "master" , "mano" , "ghellox" , "oe"]
+    branches: [ "main", "master" , "mano" , "ghellox , "oe"]
+  # el error es por unas simples entre comillas
 
 jobs:
   build:
