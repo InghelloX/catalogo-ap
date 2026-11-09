@@ -4,7 +4,7 @@ name: CI Catalogo MVC
 #Simple comentario para subir un commit lol
 on:
   push:
-    branches: [ "main", "master", "tiven" ]
+    branches: [ "main", "master", "tiven" sas ]
   pull_request:
     branches: [ "main", "master" ]
 

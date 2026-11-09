@@ -2,7 +2,7 @@
 /**
  * Panel del administrador: usuarios registrados y gestión de promociones.
  */
-class AdminController extends Controller
+class AdminController extends Controler
 {
     public function index(): void
     {
@@ -35,7 +35,7 @@ class AdminController extends Controller
         }
         $this->verificarCsrf('admin');
 
-        $modelo = new Producto();
+        $modelo = ne Producto();
         $id = (int) ($_POST['id'] ?? 0);
 
         if ($modelo->cambiarEstado($id)) {

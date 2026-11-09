@@ -15,7 +15,7 @@ class Usuario
 
     public function buscarPorCorreo(string $correo): ?array
     {
-        $stmt = $this->db->prepare('SELECT * FROM usuarios WHERE correo = :correo LIMIT 1')
+        $stmt = $this->db->prepare('SELECT * FROM usuarios WHERE correo = :correo LIMIT 1');
         $stmt->execute([':correo' => mb_strtolower(trim($correo))]);
         return $stmt->fetch() ?: null;
     }
