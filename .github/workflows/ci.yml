@@ -1,12 +1,11 @@
 name: CI Catalogo MVC
 
 # Define cuándo se ejecutará esta acción
-#Simple comentario para subir un commit lol
 on:
   push:
-    branches: [ "main", "master" ]
+    branches: [ "main", "master" , "mano" , "ghellox"]
   pull_request:
-    branches: [ "main", "master" ]
+    branches: [ "main", "master" , "mano" , "ghellox" ]
 
 jobs:
   build:
